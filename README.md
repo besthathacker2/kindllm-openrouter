@@ -4,8 +4,6 @@
 
 A distraction-free LLM chat web app optimized for Kindle. The perfect companion for your book. Powered by Mixtral from Mistral AI. Mainly tested on Kindle Paperwhites.
 
-[https://kindllm.app](https://kindllm.app)
-
 <img src="https://andersrex.com/kindllm.jpg" width="512">
 
 Stack:
