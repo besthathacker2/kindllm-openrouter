@@ -2,4 +2,4 @@ name = "kindllm"
 compatibility_date = "2023-12-18"
 
 [vars]
-API_KEY = ""
+API_KEY = "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"
