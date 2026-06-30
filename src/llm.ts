@@ -1,9 +1,9 @@
 import OpenAI from "openai";
 import { ChatCompletionMessageParam } from "openai/resources";
 
-const MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1"; // "gpt-3.5-turbo";
+const MODEL = "qwen/qwen3-coder:free"; // "gpt-3.5-turbo";
 // We're using Anyscale Endpoints for inference, change this to use OpenAI
-const BASE_URL = "https://api.endpoints.anyscale.com/v1";
+const BASE_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export async function getNextMessage(apiKey: string, messages: string, message: string) {
   const messageHistory = messages.split("||||").map((m) => {
